@@ -1,29 +1,47 @@
 {
-    "Bulbizarre" : {
-        "type" : "Plante",
+    "Bulbizarre": {
+        "type": "Plante",
         "hp": 45,
         "attack": 49,
         "defense": 49,
         "specialAttack": 65,
         "specialDefense": 65,
-        "speed": 45
+        "speed": 45,
+        "moves": [
+            "Protection",
+            "Repos",
+            "Fouet_Lianes",
+            "Lance_Soleil"
+        ]
     },
-    "Carapuce" : {
-        "type" : "Eau",
+    "Carapuce": {
+        "type": "Eau",
         "hp": 44,
         "attack": 48,
         "defense": 65,
         "specialAttack": 50,
         "specialDefense": 64,
-        "speed": 43
+        "speed": 43,
+        "moves": [
+            "Protection",
+            "Repos",
+            "Charge",
+            "Surf"
+        ]
     },
-    "Salamèche" : {
-        "type" : "Feu",
+    "Salameche": {
+        "type": "Feu",
         "hp": 39,
         "attack": 52,
         "defense": 43,
         "specialAttack": 60,
         "specialDefense": 50,
-        "speed": 65
+        "speed": 65,
+        "moves": [
+            "Protection",
+            "Repos",
+            "Griff",
+            "Deflagration"
+        ]
     }
 }

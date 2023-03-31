@@ -1,0 +1,42 @@
+{
+    "Protection": {
+        "Type": "Psy",
+        "category": "Statut",
+        "power": 0
+    },
+    "Repos": {
+        "Type": "Psy",
+        "category": "Statut",
+        "power": 0
+    },
+    "Griff": {
+        "Type": "Normal",
+        "category": "Physical",
+        "power": 40
+    },
+    "Deflagration": {
+        "Type": "Feu",
+        "category": "Special",
+        "power": 120
+    },
+    "Charge": {
+        "Type": "Normal",
+        "category": "Physical",
+        "power": 35
+    },
+    "Surf": {
+        "Type": "Eau",
+        "category": "Special",
+        "power": 95
+    },
+    "Fouet_Lianes": {
+        "Type": "Plante",
+        "category": "Special",
+        "power": 35
+    },
+    "Lance_Soleil": {
+        "Type": "Plante",
+        "category": "Special",
+        "power": 120
+    }
+}
