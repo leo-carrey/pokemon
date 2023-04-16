@@ -14,6 +14,7 @@ def dump_json(destination, data):
 
 pokedex = open_json('pokemon')
 type_pokemon = open_json('tableau_types')
+move = open_json('move')
 
 
 class Pokemon:
@@ -27,6 +28,9 @@ class Pokemon:
         self.specialDefense = pokedex[name]["specialDefense"]
         self.speed = pokedex[name]["speed"]
         self.moves = pokedex[name]["moves"]
+        self.type_attack = type_pokemon
+        self.move = move
+        
 
 
     def __str__(self):
@@ -37,4 +41,3 @@ class Pokemon:
 
     def get_hp(self):
         return self.__hp
-
